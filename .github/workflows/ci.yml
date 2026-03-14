@@ -1,0 +1,40 @@
+name: Candidate Tracking CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 9 * * 1'  # Weekly on Monday at 9 AM
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        pip install pyyaml
+    
+    - name: Validate candidate files
+      run: |
+        python3 scripts/validate-data.py
+    
+    - name: Generate stats
+      run: |
+        python3 scripts/generate-stats.py
+    
+    - name: Commit stats update
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add reports/
+        git diff --quiet && git diff --staged --quiet || git commit -m "Update weekly stats"
+        git push
