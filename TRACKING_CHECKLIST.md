@@ -129,23 +129,22 @@
 
 ## Weekly Action Plan
 
-### Week of March 14-21, 2026
+## Week 1 (Immediate) - Based on JD Matching:
 
-**Priority 0 (Critical):**
-1. [ ] Contact lechuck (VBD-002/004) - verify status
-2. [ ] Check if available for VN/APAC roles
+**Day 1-2 (P1 - High Match):**
+1. [ ] Contact PhuThoDien (VAI-001) - AI Educator, 35-45M offer
+2. [ ] Contact odkjabqpmzvmz (VBD-003) - DevOps, 30-35M offer
 
-**Priority 1 (High):**
-3. [ ] Contact nkciam (VBD-001) - request referrals
-4. [ ] Contact odkjabqpmzvmz (VBD-003) - observability role
-5. [ ] Contact PhuThoDien (VAI-001) - AI educator role
+**Day 3-5 (P2 - Good Match):**
+3. [ ] Contact vozer9 (VAI-002) - AI Engineer, 35-45M offer
+4. [ ] Contact nkciam (VBD-001) - Request referrals
 
-**Priority 2 (Medium):**
-6. [ ] Research s29311 (VBD-006) profile
-7. [ ] Research vozer9 (VAI-002) product
+**Day 5-7 (P3 - Research):**
+5. [ ] Research s29311 (VBD-005) profile
+6. [ ] Research baodang359 (VBD-004) - if need junior role
 
-**Priority 3 (Low):**
-8. [ ] Research baodang359 (VBD-005)
+**Special Case:**
+7. [ ] Contact lechuck (VBD-002) ONLY if have equity + senior role
 
 ---
 
